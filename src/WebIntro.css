@@ -1,0 +1,94 @@
+.grid-container{
+  margin-left: -100px;
+  margin-right: 50px;
+}
+
+nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #111;
+  }
+
+  .SearchResults {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .SearchResultschild1{
+    list-style: none;
+    /* flex: 0 0 30.333333%; */
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+    border: 1px solid black;
+    /* add a border to the image */
+    border-radius: 7px;
+    /* add rounded corners to the border */
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); add a shadow to the image */
+    max-width: 100%;
+    /* ensure the image scales down to fit its container */
+    height: auto;
+    box-shadow: 2px 2px 5px lightgoldenrodyellow;
+  }
+  
+  .SearchResultschild1{
+        position: relative;
+        top: 0;
+        transition: top ease 0.2s;
+        /* display: flex;
+        flex-wrap: wrap;
+        flex-direction: column; */
+  }
+
+  .SearchResultschild1:hover{
+    /* border: 4px solid lightblue; */
+    top: -15px;
+  /* transition-duration: 0.3s; */
+}
+
+.iaminput{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.justFirst{
+    color: grey;
+}
+
+.justSecond{
+    font-size: 3em;
+    color: brown;
+}
+
+.firstPart{
+    text-align: center;
+}
+
+.iamintro{
+    /* margin: auto;
+    padding: auto; */
+    text-align: center;
+    color: grey;
+}

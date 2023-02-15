@@ -1,0 +1,130 @@
+* {
+    justify-content: center;
+    font-family: 'Spectral SC', serif;
+}
+
+.child0container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.child1container {
+    margin-right: 50px;
+    opacity: 0.8;
+    filter: contrast(150%);
+
+
+    height: 350px;
+    overflow: hidden;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), -2px -4px 3px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+    /* width: 100%; */
+    /* height: auto; */
+    /* object-fit: cover; */
+}
+
+.child1container:hover {
+    transform: scale(0.9);
+    transform: rotate(10deg);
+}
+
+.child2container {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1 em;
+}
+
+.iamname {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    text-shadow: 4px 4px 2px #000000;
+    margin-top: -16px;
+}
+
+.granchild0,
+.granchild1,
+.granchild2,
+.granchild3,
+.granchild4,
+.granchild5 {
+    font-size: 18px;
+    font-style: bold;
+}
+
+.granchild00,
+.granchild11,
+.granchild22,
+.granchild33,
+.granchild44,
+.granchild55 {
+    font-size: 16px;
+    color: grey;
+}
+
+.forLink {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itsLink {
+    size: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 8px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    transition: opacity 0.5s;
+}
+
+.itsLink:hover {
+    background-color: transparent;
+    opacity: 0.4;
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1200px) {
+    body {
+        font-size: 18px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for screens between 768px and 1199px */
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        font-size: 16px;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for screens smaller than 767px */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    img {
+      max-width: 100%;
+      /* height: auto; */
+    }
+  }
+  
