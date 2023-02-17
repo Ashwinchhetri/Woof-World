@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Woof-World/static/css/main.10f6f393.css",
-    "main.js": "/Woof-World/static/js/main.586fec44.js",
+    "main.js": "/Woof-World/static/js/main.5a85a7c8.js",
     "index.html": "/Woof-World/index.html",
     "main.10f6f393.css.map": "/Woof-World/static/css/main.10f6f393.css.map",
-    "main.586fec44.js.map": "/Woof-World/static/js/main.586fec44.js.map"
+    "main.5a85a7c8.js.map": "/Woof-World/static/js/main.5a85a7c8.js.map"
   },
   "entrypoints": [
     "static/css/main.10f6f393.css",
-    "static/js/main.586fec44.js"
+    "static/js/main.5a85a7c8.js"
   ]
 }
