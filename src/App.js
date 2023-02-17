@@ -7,7 +7,7 @@ import SingleDog from './SingleDog';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/Woof-World'>
         <Routes>
           <Route path="/" element={<Doggie />}></Route>
           <Route path="/:name" element={<SingleDog />}></Route>
